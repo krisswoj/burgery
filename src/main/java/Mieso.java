@@ -5,7 +5,7 @@ public class Mieso {
 
     protected Mieso(){
 
-        this.nazwa = "Wolowe";
+        this.nazwa = "Mieso wolowe";
         this.cena = 8;
     }
 

@@ -6,7 +6,7 @@ public class Pomidor {
     protected Pomidor(){
 
         this.nazwa = "Pomidor";
-        this.cena = 1;
+        this.cena = 2;
     }
 
     public String getNazwa() {

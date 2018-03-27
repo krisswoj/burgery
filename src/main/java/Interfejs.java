@@ -14,7 +14,7 @@ public class Interfejs {
     private static void zlozZamowienie() {
 
         String rodzajZamwowienia;
-        System.out.println("Hamburger klasyczny (Bulka i mieso): 15 zl = Wybierz 1");
+        System.out.println("Hamburger klasyczny (Bulka i mieso): 18 zl = Wybierz 1");
         System.out.println("Hamburger klasyczny (Bulka i mieso) + dodatki = Wybierz 2");
 
         rodzajZamwowienia = getUserInput();
@@ -42,7 +42,7 @@ public class Interfejs {
         ArrayList<String> zDodatkamiLista = new ArrayList<String>();
 
         String dodatkowyOgorek;
-        System.out.println("Dodatkowy ogorek: 3 zl = Wybierz 1");
+        System.out.println("Dodatkowy ogorek: 2 zl = Wybierz 1");
         System.out.println("Bez dodatkowego ogorka = Wybierz 2");
         dodatkowyOgorek = getUserInput();
 
@@ -55,10 +55,11 @@ public class Interfejs {
             hamburger.setTotalPrice(hamburger.bulka.getCena(), hamburger.mieso.getCena(), hamburger.ogorek.getCena());
 
         } else {
-
             zDodatkamiLista.add(hamburger.bulka.getNazwa());
             zDodatkamiLista.add(hamburger.mieso.getNazwa());
-            hamburger.setTotalPrice(hamburger.bulka.getCena(), hamburger.mieso.getCena(), hamburger.ogorek.getCena());
+
+            hamburger.setTotalPrice(hamburger.bulka.getCena(), hamburger.mieso.getCena());
+
         }
 
         String dodatkowyPomidor;
@@ -92,8 +93,16 @@ public class Interfejs {
             hamburger.setTotalPrice(hamburger.getTotalPrice(), hamburger.majonez.getCena());
         }
 
-    }
+        System.out.println("Dziekuje za zlozenie zamowienia");
+        System.out.println("Twoje kanpaka sklada sie z: ");
 
+        for(String elem : zDodatkamiLista){
+            System.out.print(elem+ ", ");
+        }
+
+        System.out.println("");
+        System.out.println("Laczna cena za kanake to " + hamburger.getTotalPrice() + " zl");
+    }
 
     public static String getUserInput() {
         return sc.nextLine().trim();

@@ -5,8 +5,8 @@ public class Boczek {
 
     public Boczek(){
 
-        this.nazwa = "Boczek wołowy";
-        this.cena = 4;
+        this.nazwa = "Boczek";
+        this.cena = 2;
     }
 
     public int getCena() {

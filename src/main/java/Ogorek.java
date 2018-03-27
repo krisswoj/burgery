@@ -5,7 +5,7 @@ public class Ogorek {
 
     protected Ogorek(){
         this.nazwa = "Ogorek";
-        this.cena = 3;
+        this.cena = 2;
     }
 
     public String getNazwa() {
