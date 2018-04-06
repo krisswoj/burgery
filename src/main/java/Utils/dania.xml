@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Danias>
+    <Danie>
+        <id>1</id>
+        <name>Hamburger</name>
+        <default_components>1,6</default_components>
+        <optional_components>7,10,12,13,16,17,18</optional_components>
+    </Danie>
+    <Danie>
+        <id>2</id>
+        <name>Kebab</name>
+        <default_components>8,7</default_components>
+        <optional_components>2,7,8,10,12,13,14,15,18</optional_components>
+    </Danie>
+    <Danie>
+        <id>3</id>
+        <name>Pizza</name>
+        <default_components>3,10,8</default_components>
+        <optional_components>9,13,15,17</optional_components>
+    </Danie>
+    <Danie>
+        <id>4</id>
+        <name>Spaghetti</name>
+        <default_components>4,11</default_components>
+        <optional_components>10</optional_components>
+    </Danie>
+    <Danie>
+        <id>5</id>
+        <name>Tortilla</name>
+        <default_components>5,7,18</default_components>
+        <optional_components>8,2,10,12</optional_components>
+    </Danie>
+</Danias>

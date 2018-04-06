@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<Skladnikis>
+    <Skladnik>
+        <id>0</id>
+        <name>none</name>
+        <price>0</price>
+    </Skladnik>
+    <Skladnik>
+        <id>1</id>
+        <name>Bulka hamburger</name>
+        <price>10</price>
+    </Skladnik>
+    <Skladnik>
+        <id>2</id>
+        <name>Bulka Kebab</name>
+        <price>8</price>
+    </Skladnik>
+    <Skladnik>
+        <id>3</id>
+        <name>Spod do pizzy</name>
+        <price>12</price>
+    </Skladnik>
+    <Skladnik>
+        <id>4</id>
+        <name>Makaron spaghetii</name>
+        <price>9</price>
+    </Skladnik>
+    <Skladnik>
+        <id>5</id>
+        <name>Placek tortilla</name>
+        <price>7</price>
+    </Skladnik>
+    <Skladnik>
+        <id>6</id>
+        <name>Kotler wolowy</name>
+        <price>8</price>
+    </Skladnik>
+    <Skladnik>
+        <id>7</id>
+        <name>Mieso szarapne cielece</name>
+        <price>7</price>
+    </Skladnik>
+    <Skladnik>
+        <id>8</id>
+        <name>Szynka</name>
+        <price>2</price>
+    </Skladnik>
+    <Skladnik>
+        <id>9</id>
+        <name>Pieczarki</name>
+        <price>2</price>
+    </Skladnik>
+    <Skladnik>
+        <id>10</id>
+        <name>Ser</name>
+        <price>4</price>
+    </Skladnik>
+    <Skladnik>
+        <id>11</id>
+        <name>Wywar bolognese</name>
+        <price>2</price>
+    </Skladnik>
+    <Skladnik>
+        <id>12</id>
+        <name>Salata</name>
+        <price>2</price>
+    </Skladnik>
+    <Skladnik>
+        <id>13</id>
+        <name>Pomidory</name>
+        <price>2</price>
+    </Skladnik>
+    <Skladnik>
+        <id>14</id>
+        <name>Oliwka</name>
+        <price>1</price>
+    </Skladnik>
+    <Skladnik>
+        <id>15</id>
+        <name>Feta</name>
+        <price>3</price>
+    </Skladnik>
+    <Skladnik>
+        <id>16</id>
+        <name>Majonez</name>
+        <price>1</price>
+    </Skladnik>
+    <Skladnik>
+        <id>17</id>
+        <name>Boczek</name>
+        <price>1</price>
+    </Skladnik>
+    <Skladnik>
+        <id>18</id>
+        <name>Sos czosnkowy</name>
+        <price>1</price>
+    </Skladnik>
+</Skladnikis>
